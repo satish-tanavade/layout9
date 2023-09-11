@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+}
+.container{
+    width: 930px;
+    margin: 0 auto;
+}
+.section-header{
+    background: #fcdb00;
+    padding: 58px 0 108px;
+}
+.section-feature{
+    padding: 118px 0;
+}
+.section-contact{
+    background: #010101;
+    padding: 97px 0;
+    color: white;
+}
+.header-navbar,.header-deta,.feature-row,.feature-row-details,.contact-footer{
+    overflow: hidden;
+}
+.header-navbar div:first-child{
+    float: left;
+}
+.header-navbar div:last-child{
+    float: right;
+}
+.header-navbar li{
+    display: inline;
+}
+.header-navbar li a{
+    text-decoration: none;
+    font-size: 22px;
+    color: #010101;
+    font-weight: 700;
+    margin: 0 74px 0 0;
+}
+.header-navbar li:last-child a{
+    margin: 0;
+}
+.header-deta div{
+    float: left;
+}
+.header-deta div:first-child{
+    width: 390px;
+    margin: 0 182px 0 0;
+}
+.header-deta{
+    margin: 48px 0 0;
+}
+.header-deta h1{
+    font-size: 32px;
+    color: #010101;
+    font-weight: 700;
+    margin: 70px 0 12px;
+}
+.header-deta h2{
+    font-size: 20px;
+    color: #313841;
+}
+.header-deta p{
+    font-size: 16px;
+    color: #555555;
+    margin: 10px 0 40px;
+}
+.header-deta div:first-child :nth-child(5){
+    margin: 0 37px;
+}
+.feature-header{
+    text-align: center;
+    padding: 0 97px;
+}
+.feature-header h1{
+    font-size: 32px;
+    color: #010101;
+}
+.feature-header p{
+    font-size: 20px;
+    color: #313841;
+    margin: 8px 0 0;
+}
+.feature-row{
+    margin: 87px 0 0;
+}
+.feature-row > div{
+    float: left;
+    width: 280px;
+    margin: 0 44px 0 0;
+}
+.feature-row > div:last-child{
+    margin: 0;
+}
+.feature-row-details div{
+    float: left;
+}
+.feature-row-details div:first-child{
+    width: 67px;
+}
+.feature-row-details div:last-child{
+    width: 213px;
+}
+.feature-row-details h1{
+    font-size: 22px;
+    color: #010101;
+}
+.feature-row-details p{
+    font-size: 16px;
+    color: #898989;
+}
+.feature-row-details i{
+    font-size: 45px;
+}
+.contact-header{
+    text-align: center;
+    padding: 0 97px;
+}
+.contact-header h1{
+    font-size: 32px;
+    color: #fcdb00;
+}
+.contact-header p{
+    font-size: 20px;
+    color: #898989;
+    margin: 8px 0 18px;
+}
+.contact-header i{
+    color: #fcdb00;
+    margin: 0 25px 78px;
+    font-size: 45px;
+}
+.contact-footer div{
+    float: left;
+    width: 160px;
+    font-size: 16px;
+}
+.contact-footer div:first-child{
+    width: 288px;
+}
+.contact-footer ul{
+    list-style: none;
+}
+.contact-footer a{
+    text-decoration: none;
+    color: white;
+}
